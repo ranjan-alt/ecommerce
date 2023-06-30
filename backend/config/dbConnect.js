@@ -2,7 +2,7 @@ const { default: mongoose } = require("mongoose")
 
 const dbConnect = ()=>{
     try{
-        const conn = mongoose.connect("mongodb+srv://admin:admin@cluster0.fkhpkhr.mongodb.net/")
+        const conn = mongoose.connect(process.env.MONGODB_URL)
         console.log("datatbase connected successfully")
     }catch(error){
         console.log("Database error")
