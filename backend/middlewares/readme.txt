@@ -1,0 +1,1 @@
+in middleware we can create auth middleware error middleware

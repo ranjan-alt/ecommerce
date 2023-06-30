@@ -1,0 +1,1 @@
+in config we can have db connections and other functionallity which we can use again and again 
